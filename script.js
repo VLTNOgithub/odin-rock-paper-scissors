@@ -90,8 +90,6 @@ window.onload = () => {
 	function handleGame(choice) {
 		round++;
 
-		console.log(`${humanScore} ${computerScore}`)
-
 		if (round >= endRound) {
 			statusText.innerHTML = "";
 			round = 0;
